@@ -1,0 +1,16 @@
+CFLAGS = -lwiringPi -lpthread -D_GLIBCXX_USE_CXX11_ABI=0;
+
+Program: Program.cpp MainBusiness.o MeasureCtrl.o SoundPlay.o
+	g++ $(CFLAGS) Program.cpp MainBusiness.o MeasureCtrl.o SoundPlay.o -o Program
+
+MainBusiness.o: MainBusiness.cpp
+	g++ $(CFLAGS) -c MainBusiness.cpp
+
+MeasureCtrl.o: MeasureCtrl.cpp
+	g++ $(CFLAGS) -c MeasureCtrl.cpp
+
+SoundPlay.o: SoundPlay.cpp subprocess.hpp
+	g++ $(CFLAGS) -c SoundPlay.cpp
+
+clean:
+	rm *.o Program

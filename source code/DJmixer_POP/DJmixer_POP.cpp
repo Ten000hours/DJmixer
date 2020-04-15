@@ -352,7 +352,7 @@ int main(void)
 								delay(1000);
 							}
 						}
-						else if( dis3>=25 &&dis2<35)
+						else if( dis2>=25 &&dis2<35)
 						{
 							path2 =soundpath6;
 							auto q=Popen({"omxplayer","-o","local","--loop",path2},output{PIPE},input{PIPE});
