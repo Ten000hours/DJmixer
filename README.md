@@ -54,7 +54,7 @@ Social Media
 
 Division of labor
 -----
-![Image text](https://github.com/GuangyaoLI/DJmixer/blob/master/img/schedule.png)
+;![Image text](https://github.com/GuangyaoLI/DJmixer/blob/master/img/schedule.png)
 
 
 
