@@ -52,9 +52,7 @@ Social Media
 * [Twitter](https://twitter.com/UofGd?lang=en)
 * [hackaday io](https://hackaday.io/project/164857-djmixer)
 
-Division of labor
------
-;![Image text](https://github.com/GuangyaoLI/DJmixer/blob/master/img/schedule.png)
+
 
 
 
